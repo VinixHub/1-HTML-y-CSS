@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ojuju:wght@200..800&display=swap');
+
+header {
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+
+h2 {
+    font-family: "Montserrat",'Lucida Sans';
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 15px;
+    text-align: justify;
+    display: inline;
+}
+
+.title {
+    font-family: "Montserrat",'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+    justify-self: center;
+}
+
+.title-photo {
+    margin: 10px 10px 5px 10px;
+    display: flex;
+}
+
+.title-photo h2 {
+    margin-left: 10px;
+    font-family: 'Ojuju','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-self: center;
+}
+
+.recipes-search {
+    font-family: "Montserrat",'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 2%;
+}
+
+.recipes-search input {
+    background-color: rgb(234, 255, 255);
+    color: black
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(226, 168, 91);
+    overflow: hidden;
+    list-style-type: none;
+    border-bottom: 1px solid black;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    font-family: "Montserrat",'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+
+nav ul li:first-child {
+    margin-left: 10px;
+}
+
+nav ul li a:hover {
+    background-color: rgb(209, 127, 4);
+}
+
+#ingredientes, #paso1, #paso2, #paso3, #paso4 {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid black;
+}
+
+.ingredientes-titulo, .paso1-titulo, .paso2-titulo, .paso3-titulo, .paso4-titulo {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.ingredientes-video, .paso1-video, .paso2-video, .paso3-video, .paso4-video {
+    height: 360px;
+    width: 640px;
+    align-self: center;
+    margin-left: 5em;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(226, 168, 91);
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
